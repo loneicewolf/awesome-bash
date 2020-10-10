@@ -1,4 +1,4 @@
-# contents of files.sh #
+# contents of Version2_checksumFiles_MultiExtension.sh #
 # example file extensions:  pdf, doc, docx,rar  etc..
 
 # taking 2 as a example: .txt files and .doc files.
@@ -8,7 +8,7 @@ for f in *.txt *.doc;
   do name=$(echo "$f" | cut -d'.' -f1)
 #  echo "$name"
 
-  sha3-512sum "$f""" #wait, .f or $f!
+  sha3-512sum "$f""" 
 
 done
 
