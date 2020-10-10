@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 # contents of Version2_checksumFiles_MultiExtension.sh #
 # example file extensions:  pdf, doc, docx,rar  etc..
 
