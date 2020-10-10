@@ -6,11 +6,7 @@
 # taking 2 as a example: .txt files and .doc files.
 
 for f in *.txt *.doc;
-
-  do name=$(echo "$f" | cut -d'.' -f1)
-
-  sha3-512sum "$f""" 
-
+    do sha3-512sum "$f"""
 done
 
 
