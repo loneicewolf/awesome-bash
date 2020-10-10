@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 
 # Find & Compute sha3-512 checksum of all the files in a directory, ending with the extension "TargetFile"
 
