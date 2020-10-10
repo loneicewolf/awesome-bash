@@ -6,7 +6,6 @@
 for f in *.txt *.doc;
 
   do name=$(echo "$f" | cut -d'.' -f1)
-#  echo "$name"
 
   sha3-512sum "$f""" 
 
