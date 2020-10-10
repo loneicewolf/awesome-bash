@@ -1,4 +1,5 @@
-## ****Things in Bash you *maybe* didn't know**** ##
+#!/usr/bin/bash
+
 
 # Customize sudo - Password Prompt: 
 export SUDO_PROMPT="Hello, please type in your magic word: "
